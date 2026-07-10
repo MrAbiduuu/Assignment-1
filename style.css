@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* body  */
+.container{
+    text-align: center;
+    padding: auto;
+}
+
+/* nav bar  */
+
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation a{
+    font-size: small;
+    margin: 0px 12px;
+    text-decoration: none;
+    color: #575757;
+    gap: 24px;
+    
+}
+
+
+/* main  */
+ main{
+    width: 100%
+ }
+.banner{
+    background-image: url();
+}
+
