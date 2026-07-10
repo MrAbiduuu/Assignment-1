@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* body  */
@@ -16,22 +17,72 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+nav .logo{
+    padding: 5px;
+}
 
 .navigation a{
     font-size: small;
-    margin: 0px 12px;
+    margin: 0px 10px;
+    padding: 4px;
     text-decoration: none;
     color: #575757;
-    gap: 24px;
+    transition: 0.3s;
+    /* gap: 24px; */
     
 }
+.navigation a:hover{
+    background-color: #b7b7b7;
+    padding: 4px 5px;
+    border-radius: 2px;
+    color: #fdfdfd;
+}
 
+.cmn-button button{
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    color: rgb(236, 236, 236);
+    font-weight: 500;
+    background-color: #1D4ED8;    
+    transition: 0.3s;
 
+}
+button:hover{
+    cursor: pointer;
+    color: #fdfdfd;
+    background-color: #315cd3;
+}
 /* main  */
  main{
     width: 100%
  }
+
 .banner{
-    background-image: url();
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    width: 100%;
+    padding: auto;
+    background-image: url(./images/banner.jpg);
+    height: 500px;
+    color: white;
 }
+
+.banner h1{
+    font-size: 50px;
+    margin-top: 20px;
+}.banner p{
+    color: #b7b7b7;
+    margin-top: 15px;
+}
+.banner button{
+    
+    padding: 15px 25px;
+}
+.banner .cmn-button{
+    margin-top: auto;
+    margin-bottom: 60px;
+}
+
 
