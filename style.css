@@ -407,13 +407,19 @@ li::marker{
 }
 .benefit-item h4{
     font-size: 20px;
-    color: #111827;
+    color: #2564ebce;
     margin-bottom: 8px;
 }
 .benefit-item p{
     font-size: 15px;
-    color: #6b7280;
+    color: #585e69;
     line-height: 1.7;
+}
+.benefit-item i {
+    color: white;
+    background-color: #2564ebce;
+    padding: 6px 0px;
+    border-radius: 99px;
 }
 
 
