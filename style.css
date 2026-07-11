@@ -179,6 +179,9 @@ button:hover{
 
 
 /* offer cards  */
+.offer-cards h1 {
+    font-size: 52px;
+}
 .offer-cards{
     margin-top: 40px;
 }
@@ -194,8 +197,12 @@ button:hover{
     border-radius: 10px;
     padding: 40px 60px;
     text-align: left;
+    transition: .4s;
 }
 
+.card:hover{
+    box-shadow: 0 10px 20px rgba(76, 118, 215, 0.593);
+}
 .card span{
     font-weight: bolder;
     color: #93C5FD;
@@ -217,6 +224,8 @@ li::marker{
 }
 
  /* buttons  */
+
+
 .plan{
     border-radius: 10px;
     margin: 30px 0px;
@@ -252,6 +261,158 @@ li::marker{
 
 /* def conf journey  */
 
+/* build your journey  */
+
+.journey{
+    padding: 110px 0;
+    background: #ffffff;
+}
+
+.section-heading{
+    max-width: 700px;
+    margin: 0 auto 70px;
+    text-align: center;
+}
+.badge{
+    display: inline-block;
+    padding: 8px 18px;
+    border: 1px solid #dbe4ff;
+    border-radius: 50px;
+    background: #f5f8ff;
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section-heading h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: #111827;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.section-heading p{
+    font-size: 18px;
+    color: #6b7280;
+    line-height: 1.8;
+}
+
+
+/* cards pf journey  */
+
+.journey-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px 80px;
+    gap: 30px;
+}
+
+.journey-card{
+    background: #ffffff;
+    border: 1px solid #d2d3d6;
+    border-radius: 16px;
+    padding: 40px;
+    transition: 0.35s ease;
+}
+
+.journey-card:hover{
+    box-shadow: 0 10px 20px rgba(76, 118, 215, 0.593);
+}
+
+.card-number{
+    width: 48px;
+    height: 48px;
+    background: #2563eb;
+    color: #ffffff;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.journey-card h3{
+    font-size: 30px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.card-subtitle{
+    font-size: 16px;
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+/*Interest List*/
+
+.interest-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.interest-item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 20px;
+    border: 1px solid #c2d0fd;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.interest-item:hover{
+    background: #f8fbff;
+    border-color: #2563eb;
+}
+
+
+.interest-item input{
+    width: 20px;
+    height: 20px;
+    accent-color: #2564ebce;
+}
+
+.interest-item span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #2564ebce;
+}
+
+
+
+
+
+    /* Benefit List */
+
+.benefit-list{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.benefit-item{
+    border-bottom: 1px solid #a0a0a0;
+    padding-bottom: 20px;
+}
+.benefit-item:last-child{
+    border-bottom: none !important;
+}
+.benefit-item h4{
+    font-size: 20px;
+    color: #111827;
+    margin-bottom: 8px;
+}
+.benefit-item p{
+    font-size: 15px;
+    color: #6b7280;
+    line-height: 1.7;
+}
 
 
 
