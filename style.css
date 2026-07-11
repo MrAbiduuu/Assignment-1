@@ -12,7 +12,9 @@
 
 /* nav bar  */
 .navigation-bar{
-    padding: auto;
+    padding: 20px 60px;
+    max-width:1200px;
+    margin:0 auto;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -22,13 +24,13 @@ nav .logo{
 }
 
 .navigation a{
-    font-size: small;
-    margin: 0px 8px;
+    font-size: 15px;
+    margin: 0 12px;
     padding: 5px;
     text-decoration: none;
     color: #575757;
     transition: 0.3s;
-    /* gap: 24px; */
+    gap: 24px;
     
 }
 .navigation a:hover{
@@ -55,7 +57,7 @@ button:hover{
 }
 /* main  */
  main{
-    width: 100%
+    width: 100%;
  }
 
 
@@ -66,7 +68,7 @@ button:hover{
     flex-direction: column;
     padding-top: 100px;
     width: 100%;
-    padding: auto;
+    padding: 20px 60px;
     background-image: url(./images/banner.jpg);
     height: 500px;
     color: white;
@@ -436,3 +438,13 @@ footer .right>a:hover{
     text-decoration: underline;
 
 }
+
+/* --- Polish additions (non-destructive) --- */
+body{line-height:1.6;background:#fff;color:#111827;}
+section{padding:40px 0;}
+.banner h1{font-weight:800;line-height:1.15;}
+.banner p{font-size:18px;line-height:1.8;max-width:760px;margin:15px auto 0;}
+.speaker-card,.card,.journey-card{box-shadow:0 2px 8px rgba(0,0,0,.04);}
+.card h1{margin:8px 0;font-size:44px;font-weight:700;}
+.card li{line-height:1.8;}
+footer{align-items:center;}
